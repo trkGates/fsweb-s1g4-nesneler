@@ -1,6 +1,7 @@
 
 /*Bu görevleri yaparken çıktıların doğru çalıştığını kontrol etmeniz için console.log'u sıklıkla kullanmanızı tavsiye ediyoruz.*/
 
+
 ///////////////Menu Elemanları ///////////////////
 const cay = {isim: "Çay", fiyat: 4, kategori: "İçecekler"};
 const serpmeKahvalti = {isim: "Serpme Kahvaltı", fiyat: 16, kategori:"Kahvaltı"};
