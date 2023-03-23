@@ -50,61 +50,6 @@ console.log(kofte);
 	
 	Örnek: burger.indirim("öğretmen") 13.5 döndürmeli ve burger.indirim("diğer") 16.2 döndürmeli
 */
-/*
-const burger = {
-
-	isim: "Burger",
-	
-	fiyat: 18,
-	
-	kategori: "Öğle Yemeği",
-	
-	indirim: function(yetki) {
-	
-	let indirimOrani = 0;
-	
-	switch (yetki) {
-	
-	case "öğretmen":
-	
-	case "öğrenci":
-	
-	indirimOrani = 0.25;
-	
-	break;
-	
-	case "diğer":
-	
-	indirimOrani = 0.1;
-	
-	break;
-	
-	default:
-	
-	break;
-	
-	}
-	
-	const indirimMiktari = this.fiyat * indirimOrani;
-	
-	const indirimliFiyat = this.fiyat - indirimMiktari;
-	
-	return indirimliFiyat;
-	
-	}
-	
-	};
-	console.log(burger.indirim("öğretmen")); // 13.5
-	
-	console.log(burger.indirim("öğrenci")); // 13.5
-	
-	console.log(burger.indirim("diğer")); // 16.2
-
-*/
-
-
-
-
 const burger = {
 	isim: "Burger", 
 	fiyat: 18, 
